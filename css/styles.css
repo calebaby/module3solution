@@ -22,5 +22,10 @@ section p {
     padding: 0 6px 4px 6px;
 }
 
-.navbar-default {
-  border: 1px solid #000000;}
+.nav.nav-tabs > li.dropdown.active.open > a, 
+.nav.nav-tabs > li.dropdown.active.open > ul.dropdown-menu a:hover,
+.nav.nav-tabs > li.dropdown.open > a, 
+.nav.nav-tabs > li.dropdown.open > ul.dropdown-menu a:hover
+{
+  border-color: #000000;
+}
